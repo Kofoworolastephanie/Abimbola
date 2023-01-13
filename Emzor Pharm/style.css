@@ -5,18 +5,18 @@ body{
 }
 header{	
 	background-color: rgba(0, 0, 189, 0.908);
-	color: white;
+
 }
-.website-header{
+.website-header{ 
+	float: left;
 	padding: 25px;
 	height: 10px;
 	display: flex;
 	flex-wrap: wrap;
 }
-.website-header img{
-	float: left;
-	width: 50px;
-	height: 25px;	
+.website-header{
+	width: 300px; 
+	height: 100px;	
 	margin: 0 30px;
 }
 .website-header h1{
@@ -159,10 +159,10 @@ section{
 	flex-basis: 70%;
 	justify-content: space-between;
 }
-.world h2{	
+.world h2{ WORLD 
 	background-color: #b2175b;
 }
-.sport h2{
+.sport h2{ 03 JAN 2023
 	background-color: #3c1b75;
 }
 .world h2, .sport h2{
